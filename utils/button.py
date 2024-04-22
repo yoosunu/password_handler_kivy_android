@@ -20,6 +20,7 @@ file_path = os.path.join(files_dir, "password.xlsx")
 class MyButton(Button):
     def __init__(self, **kwargs):
         super(MyButton, self).__init__(**kwargs)
+        self.height = 300
         self.bind(on_press=self.switch_to_info_screen)
 
     def switch_to_info_screen(self, instance):
@@ -41,6 +42,7 @@ class ReturnButton(Button):
 class AddNewButton(Button):
     def __init__(self, **kwargs):
         super(AddNewButton, self).__init__(**kwargs)
+        self.height = 300
         self.bind(on_press=self.add_new_info)
 
     def add_new_info(self, instance):
@@ -242,6 +244,7 @@ class DeleteSureButton(Button):
 class HelpButton(Button):
     def __init__(self, **kwargs):
         super(HelpButton, self).__init__(**kwargs)
+        self.height = 300
         self.bind(on_press=self.switch_to_help_screen)
 
     def switch_to_help_screen(self, instance):

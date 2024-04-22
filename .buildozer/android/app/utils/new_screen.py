@@ -34,7 +34,7 @@ class AddNewScreen(Screen):
 
         root.add_widget(Label(text="Input ID and password!"))
 
-        site_name_layout = BoxLayout()
+        site_name_layout = BoxLayout(size_hint=(1, 0.5))
         site_name_label = Label(text="SITE: ")
         site_name_layout.add_widget(site_name_label)
         site_name_input = CustomTextInput(
@@ -44,7 +44,7 @@ class AddNewScreen(Screen):
         site_name_layout.add_widget(site_name_input)
         root.add_widget(site_name_layout)
 
-        id_input_layout = BoxLayout()
+        id_input_layout = BoxLayout(size_hint=(1, 0.5))
         id_label = Label(text="ID: ")
         id_input = CustomTextInput(
             multiline=False,
@@ -54,7 +54,7 @@ class AddNewScreen(Screen):
         id_input_layout.add_widget(id_input)
         root.add_widget(id_input_layout)
 
-        pw_input_layout = BoxLayout()
+        pw_input_layout = BoxLayout(size_hint=(1, 0.5))
         pw_label = Label(text="PW: ")
         pw_input = CustomTextInput(
             multiline=False,
@@ -66,7 +66,7 @@ class AddNewScreen(Screen):
 
         from utils.button import SaveButton
 
-        button_layout = BoxLayout(orientation="vertical")
+        button_layout = BoxLayout(orientation="vertical", size_hint=(1, 1.5))
         button_layout.add_widget(SaveButton(text="Save"))
         button_layout.add_widget(ReturnButton(text="Cancel"))
 

@@ -3,8 +3,8 @@
      com.gamemaker.game
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      android:versionCode="10217"
-      android:versionName="0.7"
+      android:versionCode="10218"
+      android:versionName="0.8"
       android:installLocation="auto">
 
     <supports-screens
