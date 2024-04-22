@@ -1,0 +1,2 @@
+/home/yoosunu/Documents/environments/kivy-password/.buildozer/android/platform/build-x86_x86_64_arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a/objs-debug/sqlite3/sqlite3.o: \
+  /home/yoosunu/Documents/environments/kivy-password/.buildozer/android/platform/build-x86_x86_64_arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/jni/../sqlite3.c
