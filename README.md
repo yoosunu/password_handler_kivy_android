@@ -5,13 +5,13 @@ Download buildozer according to buildozer offical document's 'installation' step
 
 Do 'buildozer init'
 modify buildozer.spec
-# refering to my buildozer's spec can be a good way.
+ refering to my buildozer's spec can be a good way.
 
 Do 'buildozer android debug'
-# This step gonna spend long time if you build your app first time.
-# From second, use informations(files) already installed, so spend much less time.
+ This step gonna spend long time if you build your app first time.
+ From second, use informations(files) already installed, so spend much less time.
 
 Enjoy your app!
 
-# I used adb for debugging.
-# used codes like adb devices, adb logcat -s "python"
+ I used adb for debugging.
+ used codes like adb devices, adb logcat -s "python"
